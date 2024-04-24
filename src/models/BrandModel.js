@@ -1,0 +1,8 @@
+const mongoose=require('mongoose');
+
+const DataSchema = mongoose.Schema({
+    brandName:{type:String,unique:true},
+    brandImg:{type:String,unique:true},
+},
+    {timestamps: true,versionKey:false}
+)
