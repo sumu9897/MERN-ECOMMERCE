@@ -18,7 +18,7 @@ let URI="mongodb+srv://mohammad:sumu9897@cluster0.tb1lx0x.mongodb.net/MernEcomme
 let OPTION={user:'mohammad',pass:'sumu9897',autoIndex:true};
 
 mongoose.connect(URI,OPTION).then((res)=>{
-    console.log("DB Success")
+    console.log("DataBase Success")
 }).catch((err)=>{
     console.log(err)
 })
