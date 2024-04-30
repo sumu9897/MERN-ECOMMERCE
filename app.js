@@ -11,6 +11,7 @@ const cors =require('cors');
 const cookieParser = require('cookie-parser');
 const mongoose=require('mongoose');
 const path = require("path");
+const {route} = require("express/lib/router");
 
 // Database Connection
 let URI="mongodb+srv://mohammad:sumu9897@cluster0.tb1lx0x.mongodb.net/MernEcommerce";
