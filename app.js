@@ -44,8 +44,6 @@ app.use("/api/v1",route)
 
 app.set('etag', false);
 
-app.use("/api",router)
-
 //
 app.use(express.static('client/dist'));
 
